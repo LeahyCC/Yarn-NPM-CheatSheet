@@ -1,12 +1,25 @@
 # Yarn-NPM-CheatSheet
 YarnJS -  What you need to know
 
-https://github.com/yarnpkg/yarn
-https://yarnpkg.com/en/docs/
+ https://github.com/yarnpkg/yarn
+ https://yarnpkg.com/en/docs/
 
 Basic use
 
+installed it with `npm i -g yarn`
 - `yarn init`
+- `yarn add packagename`
+  - The package is saved to your dependancies package.json
+- `yarn remove packagename`
+  - The package is removed from your dependancies package.json
+- `yarn add packagename --dev`
+  - The package is saved to your dev dependancies package.json
+- `yarn upgrade`
+- `yarn upgrade-interactive`
+  - Allows you to selectively upgrade specific packages in a simple way
+- `yarn`
+  - Checks the lockfile and updates or downgrades packages (source control)
+
 - `yarn link`
 - `yarn outdated`
 - `yarn publish`
@@ -20,16 +33,3 @@ Basic use
 Automatically create your license dependency disclaimer
 - `yarn why packagename`
 Identify why the package is installed, detailing which other packages depend upon it.
-
-- `yarn upgrade-interactive`
-Allows you to selectively upgrade specific packages in a simple way
-
-installed it with `npm i -g yarn`
-
-- `yarn add packagename`
-The package is saved to your dependancies package.json
-- `yarn remove packagename`
-The package is removed from your dependancies package.json
-- `yarn add taco --dev`
-The package is saved to your dev dependancies package.json
-- `yarn upgrade`
