@@ -9,16 +9,16 @@ Basic use
 installed it with `npm i -g yarn`
 - `yarn init`
 - `yarn add packagename`
-  - The package is saved to your dependancies package.json
+The package is saved to your dependancies package.json
 - `yarn remove packagename`
-  - The package is removed from your dependancies package.json
+The package is removed from your dependancies package.json
 - `yarn add packagename --dev`
-  - The package is saved to your dev dependancies package.json
+The package is saved to your dev dependancies package.json
 - `yarn upgrade`
 - `yarn upgrade-interactive`
-  - Allows you to selectively upgrade specific packages in a simple way
+Allows you to selectively upgrade specific packages in a simple way
 - `yarn`
-  - Checks the lockfile and updates or downgrades packages (source control)
+Checks the lockfile and updates or downgrades packages (source control)
 
 - `yarn link`
 - `yarn outdated`
