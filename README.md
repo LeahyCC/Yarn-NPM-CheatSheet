@@ -1,8 +1,8 @@
 # Yarn-NPM-CheatSheet
 YarnJS -  What you need to know
 
- https://github.com/yarnpkg/yarn
- https://yarnpkg.com/en/docs/
+https://github.com/yarnpkg/yarn
+https://yarnpkg.com/en/docs/
 
 Basic use
 
