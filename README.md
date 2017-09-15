@@ -7,7 +7,10 @@ https://yarnpkg.com/en/docs/
 Basic use
 
 installed it with `npm i -g yarn`
+- `yarn --version`
+Test that Yarn is installed
 - `yarn init`
+Will start the proccess of creating package.json and the yarn.lock files
 - `yarn add packagename`
 The package is saved to your dependancies package.json
 - `yarn remove packagename`
